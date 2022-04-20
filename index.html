@@ -9,8 +9,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-
+<body id="body">
+    <label for="">RED</label>
+    <input type="range" name="color" id="color_red" value="red" step="1" min="0" max="255"
+        onchange="changeBackground()">
+    <label for="">GREEN</label>
+    <input type="range" name="color" id="color_green" value="green" step="1" min="0" max="255"
+        onchange="changeBackground()">
+    <label for="">BLUE</label>
+    <input type="range" name="color" id="color_blue" value="blue" step="1" min="0" max="255"
+        onchange="changeBackground()">
     <script src="assets/js/main.js"></script>
 </body>
 
